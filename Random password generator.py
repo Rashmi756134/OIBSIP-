@@ -15,6 +15,7 @@ def generate_password():
 
 root = tk.Tk()
 root.geometry("370x310")
+root.resizable(False,False)
 root.title("Rashmi's Random Password Generator")
 
 length_label = tk.Label(root, text="Password Length:")
